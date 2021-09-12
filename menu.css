@@ -1,0 +1,123 @@
+*{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: ch
+}
+header{
+    position: fixed;
+    top:0;
+    left: 0;
+    padding: 0 100px;
+    background: blue;
+    width: 100%;
+    box-sizing:border-box;
+    z-index: 2;
+}
+.body{
+    display: flex;
+    height: 100vh;
+    padding-top: 65px;
+    margin-bottom: 0.4em;
+}
+.menu{
+    padding-top: 5em;
+    background-image: linear-gradient(rgb(109, 142, 248),rgb(201, 196, 247));
+    flex:0.5;
+    margin: 0em 1em 0em 2em ;
+    border-radius: 6px;
+}
+.h3{
+    color:blue;
+}
+.main{
+    padding: 0.2em;
+    font-size: 25px;
+   color: white;
+    flex:2;
+    text-align: center;
+    border-radius: 3px;
+    margin-right: 0.5em;
+    background-image: url("Assets/glasss.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100vw;
+}
+header .logo{
+    color:white;
+    height: 50px;
+    font-size: 34px;
+    margin-top: 10px;
+    float: left;
+    font-weight: bolder;
+}
+header nav{
+    float: right;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    display:flex;
+    flex-flow: column;
+}
+ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color:black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ ul li a{
+    height: 50px;
+    line-height: 50px;
+    padding: 1em 3em;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+ ul li a:hover{
+    font-weight: bold; 
+    cursor: pointer; 
+    color: rgb(16, 221, 248); 
+}
+.media{
+    position: absolute;
+    bottom: 0;
+    left: 30vw;
+}
+audio{
+    width: 60vw;
+    height: 20px;
+}
+.media video{
+ width: 60vw;
+ background-color: black;
+ opacity: 1;
+}
+.menu video{
+    width: 10em;
+    background-color: black;
+    opacity: 1;
+    margin-left: 2em;
+    margin-top: 5em;
+    border-radius: 50%
+   }
+footer{
+    background-image: linear-gradient(wheat , black);
+    color:white;
+    height: 6em;;
+    text-align: center;
+    padding: 1em;
+    color:rgb(254, 253, 255);
+    font-weight: boder;
+}
+
+
