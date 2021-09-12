@@ -27,6 +27,14 @@ header{
     margin: 0em 1em 0em 2em ;
     border-radius: 6px;
 }
+
+@media only screen and (max-width: 600px) {
+  .menu {
+    display:none;
+  }
+}
+
+
 .h3{
     color:blue;
 }
@@ -94,11 +102,11 @@ nav ul li a{
     left: 30vw;
 }
 audio{
-    width: 60vw;
+    width: 60%;
     height: 20px;
 }
 .media video{
- width: 60vw;
+ width: 60%;
  background-color: black;
  opacity: 1;
 }
